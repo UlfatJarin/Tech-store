@@ -4,7 +4,7 @@ import Navber from '../Component/Navber'
 const Home = () => {
   return (
     <div>
-        <Navber/>
+       
     </div>
   )
 }
