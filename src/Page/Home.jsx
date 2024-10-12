@@ -1,10 +1,14 @@
 import React from 'react'
-import Navber from '../Component/Navber'
+import Banner from '../Component/Banner'
+import Cart from '../layer/Cart'
+import NewProduct from '../Component/NewProduct'
 
 const Home = () => {
   return (
     <div>
-       
+       <Banner/>
+       <Cart/>
+       <NewProduct/>
     </div>
   )
 }

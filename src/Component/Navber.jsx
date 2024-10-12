@@ -26,8 +26,8 @@ const Navber = () => {
                 <Button to='/' className='py-2 px-6' btntext='Our Deals'/>              
             </ul>
             <div className='flex gap-6 items-center '>
-                <FiSearch />
-                <LiaShoppingCartSolid className='' />
+                <FiSearch className='text-xl font-bold'/>
+                <LiaShoppingCartSolid className='text-xl font-bold' />
                 <div className='w-[36px] h-[36px] rounded-full bg-slate-600'></div>
 
             </div>

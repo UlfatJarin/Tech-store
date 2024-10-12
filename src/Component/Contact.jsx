@@ -5,22 +5,22 @@ import { AiFillInstagram } from 'react-icons/ai'
 
 const Contact = () => {
   return (
-    <div className='bg-bg-color py-2'>
+    <div className='bg-bg-primary py-2'>
         <Container className='flex justify-between items-center'>
             
                 <div className='flex gap-4'>
-                    <p className='text-white'>Mon-Thu:</p>
-                    <p className='text-white'>9:00 AM - 5:30 PM</p>
+                    <p className='p2'>Mon-Thu:</p>
+                    <p className='p'>9:00 AM - 5:30 PM</p>
                 </div>
                 <div className='flex items-center gap-4'>
-                    <p className='text-white'>Visit our showroom in 1234 Street Adress City Address, 1234 </p>
-                    <p className='text-white'> Contact Us</p>
+                    <p className='p2'>Visit our showroom in 1234 Street Adress City Address, 1234 </p>
+                    <p className='p'> <u>Contact Us</u></p>
                 </div>
                 <div className='flex items-center gap-4'>
-                    <p className='text-white'>Call Us: (00) 1234 5678</p>
+                    <p className='p'>Call Us: (00) 1234 5678</p>
                     <div className='flex items-center gap-2'>                        
-                    <FaFacebookSquare className='text-white' />
-                    <AiFillInstagram className='text-white' />
+                    <FaFacebookSquare className='text-whitec' />
+                    <AiFillInstagram className='text-whitec' />
                     </div>
                 </div>
             
