@@ -7,6 +7,12 @@
 .p2{
     @apply text-color-secondary font-Poppins font-semibold text-[12px]
 }
+.p3{
+    @apply  text-whitec font-Poppins font-normal text-[13px]
+}
+.h5{
+    @apply font-Poppins text-color-secondary font-bold text-sm
+}
 .title{
     @apply font-Poppins font-semibold text-[22px] text-blackc 
 }
