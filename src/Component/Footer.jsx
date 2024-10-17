@@ -20,8 +20,8 @@ const Footer = () => {
                 <p className='font-Poppins font-light text-whitec'>Be the first to hear about the latest offers.</p>
             </div>
             <div className='flex gap-6'>
-              <input className='w-[391px] bg-transparent border-2 border-whitec p-2' type="email" placeholder='Your Email'  />
-              <Button btntext='Subscribe'/>
+              <input className='w-[391px] bg-transparent border-2 border-whitec p-2 text-whitec' type="email" placeholder='Your Email'  />
+              <Button className='bg-color-3rd text-whitec' btntext='Subscribe'/>
             </div>
             </div>
             <div className='grid grid-cols-5 py-10'>
@@ -78,10 +78,12 @@ const Footer = () => {
                 <p className='p3'>E-mail: shop@email.com</p>
               </div>
             </div>
-            <div>
-              <div>
-              <FaFacebookSquare />
-              <RiInstagramFill />
+        </Container>
+            <div className='py-4 border-t border-color-secondary'>
+              <Container className='flex justify-between '>
+              <div className='flex gap-3 '>
+              <FaFacebookSquare className='text-color-secondary' />
+              <RiInstagramFill className='text-color-secondary' />
               </div>
               <div className='flex gap-2.5'>
                 <Image to='/' src={paypal}/>
@@ -91,9 +93,9 @@ const Footer = () => {
                 <Image to='/' src={american}/>
 
               </div>
-              <p className='p'>Copyright © 2020 Shop Pty. Ltd.</p>
+              <p className='p2'>Copyright © 2020 Shop Pty. Ltd.</p>
+              </Container>
             </div>
-        </Container>
     </div>
   )
 }

@@ -3,6 +3,32 @@ import Container from '../layer/Container'
 import Image from '../layer/Image'
 import banner1 from '../../public/Asset/Banner/banner1.jpg'
 import Slider from 'react-slick'
+import { FaCircleChevronRight } from 'react-icons/fa6'
+import { FaChevronCircleLeft } from 'react-icons/fa'
+
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "green" }}
+      onClick={onClick}
+      
+      ><FaCircleChevronRight /></div>
+  );
+}
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "red" }}
+      onClick={onClick}
+    > <FaChevronCircleLeft /></div>
+  );
+}
 
 const Banner = () => {
 
@@ -11,8 +37,11 @@ const Banner = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
+
 
   return (
 
