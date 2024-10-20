@@ -5,6 +5,7 @@ import Zip from '../layer/Zip'
 import CustomeBuilds from '../Component/CustomeBuilds'
 import MSILaptop from '../Component/MSILaptop'
 import GammingMonitor from '../Component/GammingMonitor'
+import INews from '../Component/INews'
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
        <Zip/>
        <CustomeBuilds/>
        <MSILaptop/>
-       <GammingMonitor/>
+       <GammingMonitor/> 
+       <INews/>
     </div>
   )
 }
