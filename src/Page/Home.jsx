@@ -7,6 +7,7 @@ import MSILaptop from '../Component/MSILaptop'
 import GammingMonitor from '../Component/GammingMonitor'
 import INews from '../Component/INews'
 import CompanyNames from '../layer/CompanyNames'
+import Review from '../Component/Review'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
        <GammingMonitor/>
        <CompanyNames/> 
        <INews/>
+       <Review/>
     </div>
   )
 }
