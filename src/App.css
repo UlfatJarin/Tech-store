@@ -19,3 +19,12 @@
 .h3{
     @apply font-Poppins font-bold text-whitec text-[22px]
 }
+
+/* -----------------------ant design---------------------------------------------------------- */
+:where(.css-dev-only-do-not-override-ni1kz0).ant-tabs-top > .ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ni1kz0).ant-tabs-bottom > .ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ni1kz0).ant-tabs-top > div > .ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ni1kz0).ant-tabs-bottom > div > .ant-tabs-nav::before {
+    position: absolute;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid transparent;
+    content: '';
+  }
