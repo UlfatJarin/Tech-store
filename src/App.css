@@ -19,6 +19,10 @@
 .h3{
     @apply font-Poppins font-bold text-whitec text-[22px]
 }
+.h4{
+    @apply font-Poppins font-bold text-lg text-blackc
+}
+
 
 /* -----------------------ant design---------------------------------------------------------- */
 :where(.css-dev-only-do-not-override-ni1kz0).ant-tabs-top > .ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ni1kz0).ant-tabs-bottom > .ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ni1kz0).ant-tabs-top > div > .ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ni1kz0).ant-tabs-bottom > div > .ant-tabs-nav::before {

@@ -6,9 +6,9 @@ import Container from '../layer/Container'
 
 const Review = () => {
   return (
-    <Container className=' max-w-[1160px] px-28 py-12 bg-[#F5F7FF]'>
+    <Container className=' !max-w-[1160px] px-28 py-12 bg-[#F5F7FF]'>
       <div className='max-w-[922px] '>
-        <div className='flex justify-center gap-7'>
+        <div className='flex justify-evenly gap-7 '>
           <Image className='w-12' src={semicolon} />
           <p className='p3 max-w-[850px] !text-blackc !text-[18px] '>My first order arrived today in perfect condition.  From the time I sent a question about the item to making the purchase, to the shipping and now the delivery, your company, Tecs, has stayed in touch.  Such great service.  I look forward to shopping on your site in the future and would highly recommend it.</p>
         </div>
