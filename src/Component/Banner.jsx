@@ -11,8 +11,8 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      className={ className}
+      style={{ ...style, display: "block",  position:"absolute", top:"50%", right:"10px", background:"white", color:"black", fontSize:"30px",   zIndex:"100", borderRadius:"50%"}}
       onClick={onClick}
       
       ><FaCircleChevronRight /></div>
@@ -23,8 +23,8 @@ function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={className}
-      style={{ ...style, display: "block", background: "red" }}
+      className={ className}
+      style={{ ...style, display: "block",  position:"absolute", top:"50%", left:"30px", background:"white", color:"black", fontSize:"30px",   zIndex:"100", borderRadius:"50%" }}
       onClick={onClick}
     > <FaChevronCircleLeft /></div>
   );
