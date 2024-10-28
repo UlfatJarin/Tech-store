@@ -15,7 +15,7 @@ const Navber = () => {
                 <Image to='/' src={logo}/>
             
             <ul className='flex gap-6 items-center'>
-                <Li to='/' className='' liitem='Laptops'/>
+                <Li to='/laptops' className='' liitem='Laptops'/>
                 <Li to='/' className='' liitem='Desktop PCs'/>
                 <Li to='/' className='' liitem='Networking Devices'/>
                 <Li to='/' className='' liitem='Printers & Scanners'/>

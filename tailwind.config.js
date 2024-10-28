@@ -13,10 +13,12 @@ export default {
     extend: {
       colors: {
         'bg-primary': '#020202',
+        'bg-secondary':'#F5F7FF',
         'whitec':'#FFFFFF',
         'blackc':'#000000',
         'color-secondary':'#ACACAC',
         'color-3rd':'#0156FF'
+        
       },
     },
   },
