@@ -96,6 +96,10 @@ const Catalog1 = () => {
                                 <Image className='w-[200px]' to='/' src={GB} />
                             </div>
                         </div>
+                        <div>
+                            <h4 className='h4'>Compare Products</h4>
+                            <p className='p4'>You have no items to compare.</p>
+                        </div>
 
                     </div>
                     <div className='col-span-5'>
