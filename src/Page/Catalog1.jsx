@@ -8,9 +8,10 @@ import hp from '../../public/Asset/company/hp.png'
 import GB from '../../public/Asset/company/GB.png'
 import Roccat from '../../public/Asset/company/Roccat.png'
 import msi from '../../public/Asset/company/msi.png'
-import razer from '../../public/Asset/company/razer.png'
 import TM from '../../public/Asset/company/TM.png'
+import nobelchairs from '../../public/Asset/Catalogs/nobelchairs.jpg'
 import Image from '../layer/Image'
+import Catalog from '../layer/Catalog'
 
 
 const Catalog1 = () => {
@@ -23,7 +24,8 @@ const Catalog1 = () => {
 
                 </div>
                 <div className='grid grid-cols-6'>
-                    <div className='col-span-1 bg-bg-secondary p-6 flex flex-col  '>
+                    <div className='col-span-1  '>
+                        <div className='bg-bg-secondary p-6 flex flex-col '>
                         <div >
                             <h4 className='h4 text-center mb-4'>Filters</h4>
                             <Button className='w-full' btntext='Clear Filter' />
@@ -79,14 +81,17 @@ const Catalog1 = () => {
                             </div>
 
                         </div>
-                        <div>
+                        <div className='my-6'>
                             <h4 className='title !text-[14px]'>Filter Name</h4>
-                            <Button btntext='Apply Filters (2)' />
+                            <Button className=' w-full' btntext='Apply Filters (2)' />
 
                         </div>
-                        <div>
-                            <h4 className='title !text-[14px]'>Brands</h4>
-                            <Button btntext='All Brands)' />
+                        </div>
+                        
+                        <div className='my-2 p-6 bg-bg-secondary'>
+                            <h4 className='title !text-[14px] text-center'>Brands</h4>
+                            <Button className='w-full' btntext='All Brands)' />
+                        </div>
                             <div className='grid grid-cols-2'>
                                 <Image className='w-[200px]' to='/' src={Roccat} />
                                 <Image className='w-[200px]' to='/' src={msi} />
@@ -95,13 +100,18 @@ const Catalog1 = () => {
                                 <Image className='w-[200px]' to='/' src={hp} />
                                 <Image className='w-[200px]' to='/' src={GB} />
                             </div>
-                        </div>
-                        <div>
+                        <div className='bg-bg-secondary py-6 px-3 my-2 text-center'>
                             <h4 className='h4'>Compare Products</h4>
                             <p className='p4'>You have no items to compare.</p>
                         </div>
-
+                        <div className='bg-bg-secondary p-6 my-2 text-center'>
+                            <h4 className='h4'>My Wish List</h4>
+                            <p className='p4 '>You have no items in your wish list.</p>
+                        </div>
+                        <Catalog to='/' src={nobelchairs} title='' />
                     </div>
+
+                    
                     <div className='col-span-5'>
                         <div className='grid grid-cols-5'>
                             <Cart />

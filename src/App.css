@@ -11,7 +11,7 @@
     @apply  text-whitec font-Poppins font-normal text-[13px]
 }
 .p4{
-    @apply font-Poppins text-[13px] text-blackc
+    @apply font-Poppins text-[13px] text-blackc leading-[130%]
 }
 .h5{
     @apply font-Poppins text-color-secondary font-bold text-sm
