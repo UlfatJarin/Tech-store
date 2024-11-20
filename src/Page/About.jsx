@@ -5,6 +5,7 @@ import Image from '../layer/Image'
 import about from '../../public/Asset/about.png'
 import AboutCompetittion from '../Component/AboutCompetittion'
 import AboutFeatues from '../Component/AboutFeatues'
+import AboutInfo from '../Component/AboutInfo'
 
 const About = () => {
     return (
@@ -25,7 +26,9 @@ const About = () => {
             <div className='Ccontainer '>
                 <div className=' w-full grid grid-cols-3'>
                     <div className='col-span-2 bg-slate-300'>
-                        osfosdfoksdof
+                        <div>
+                            
+                        </div>
                     </div>
                     <div className='bg-slate-500'>
                         <Image to='/' src={about}/>
@@ -34,6 +37,7 @@ const About = () => {
             </div>
 
             <AboutCompetittion/>
+            <AboutInfo/>
             <AboutFeatues/>
         </div>
     )
