@@ -17,7 +17,7 @@ export default {
         'whitec':'#FFFFFF',
         'blackc':'#000000',
         'color-secondary':'#ACACAC',
-        'color-3rd':'#0156FF'
+        'color-3rd':'#0156FF',
         
       },
     },
