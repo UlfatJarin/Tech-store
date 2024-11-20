@@ -3,6 +3,8 @@ import Li from '../layer/Li'
 import Button from '../layer/Button'
 import Image from '../layer/Image'
 import about from '../../public/Asset/about.png'
+import AboutCompetittion from '../Component/AboutCompetittion'
+import AboutFeatues from '../Component/AboutFeatues'
 
 const About = () => {
     return (
@@ -20,8 +22,8 @@ const About = () => {
                     </div>
                 </nav>
             </div>
-            <div>
-                <div className='container w-full grid grid-cols-3'>
+            <div className='Ccontainer '>
+                <div className=' w-full grid grid-cols-3'>
                     <div className='col-span-2 bg-slate-300'>
                         osfosdfoksdof
                     </div>
@@ -30,6 +32,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            <AboutCompetittion/>
+            <AboutFeatues/>
         </div>
     )
 }
