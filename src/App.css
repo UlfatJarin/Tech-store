@@ -28,6 +28,9 @@
 .title{
     @apply font-Poppins font-semibold text-[22px] text-blackc 
 }
+.title2{
+    @apply font-Poppins font-semibold text-[32px] text-blackc 
+}
 .h2{
     @apply font-Poppins font-medium text-blackc text-[32px]
 }

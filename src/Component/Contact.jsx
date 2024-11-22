@@ -2,6 +2,7 @@ import React from 'react'
 import Container from '../layer/Container'
 import { FaFacebookSquare } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
@@ -14,7 +15,7 @@ const Contact = () => {
                 </div>
                 <div className='flex items-center gap-4'>
                     <p className='p2'>Visit our showroom in 1234 Street Adress City Address, 1234 </p>
-                    <p className='p'> <u>Contact Us</u></p>
+                    <Link to='/contact'><p className='p'> <u>Contact Us</u></p></Link>
                 </div>
                 <div className='flex items-center gap-4'>
                     <p className='p'>Call Us: (00) 1234 5678</p>
