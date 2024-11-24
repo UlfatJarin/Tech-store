@@ -7,8 +7,8 @@ const IconText = ({children ,title,details}) => {
             {children}
         </div>
         <div>
-            <h5>{title}</h5>
-            <p> {details} </p>
+            <h5 className='p5 !font-semibold mb-1'>{title}</h5>
+            <p className='p4'> {details} </p>
         </div>
     </div>
   )

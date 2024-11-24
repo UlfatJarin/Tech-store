@@ -11,6 +11,7 @@ import RootLayOut from './RootLayOut';
 import Catalog1 from './Page/Catalog1';
 import About from './Page/About';
 import ContactUs from './Page/ContactUs';
+import LogIn from './Page/LogIn';
 
 
 
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
      <Route path="/laptops"  element={<Catalog1/>} ></Route>
      <Route path="/about"  element={<About/>} ></Route>
      <Route path="/contact"  element={<ContactUs/>} ></Route>
+     <Route path="/login"  element={<LogIn/>} ></Route>
     </Route>
   )
 );

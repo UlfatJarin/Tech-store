@@ -23,7 +23,7 @@ const Navber = () => {
                 <Li to='/about' className='' liitem='All Other Products'/>
                 <Li to='/' className='' liitem='Repairs'/>  
 
-                <Button to='/' className='py-2 px-6' btntext='Our Deals'/>              
+                <Button to='/login' className='py-2 px-6' btntext='Our Deals'/>              
             </ul>
             <div className='flex gap-6 items-center '>
                 <FiSearch className='text-xl font-bold'/>
