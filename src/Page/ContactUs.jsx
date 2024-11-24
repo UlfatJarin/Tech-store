@@ -1,6 +1,8 @@
 import React from 'react'
 import Input from '../layer/Input'
 import Container from '../layer/Container'
+import IconText from '../layer/IconText'
+import { MdOutlineLocationOn } from 'react-icons/md'
 
 const ContactUs = () => {
     return (
@@ -19,8 +21,13 @@ const ContactUs = () => {
                             <Input className='max-w-[925px]' className1='h-[236px] ' labeltext='What’s on your mind? ' id='comment' type='text' placeholder='Jot us a note and we’ll get back to you as quickly as possible' />
                         </div>
                     </div>
-                    <div className='bg-bg-secondary'>
-                        <p>jsnfkjsnfkjnsfsafsf</p>
+                    <div>
+                        <div className='bg-bg-secondary p-6'>
+                            <IconText title='Address:' details='1234 Street Adress City Address, 1234'><MdOutlineLocationOn className='text-2xl' /></IconText>
+                            <IconText title='Phone:' details='(00)1234 5678'><MdOutlineLocationOn className='text-2xl' /></IconText>
+                            <IconText title='We are open:' details='Monday - Thursday: 9:00 AM - 5:30 PM'><MdOutlineLocationOn className='text-2xl' /></IconText>
+                            <IconText title='E-mail:' details='shop@email.com'><MdOutlineLocationOn className='text-2xl' /></IconText>
+                        </div>
                     </div>
                 </div>
             </Container>
