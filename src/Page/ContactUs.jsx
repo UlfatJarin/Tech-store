@@ -4,6 +4,8 @@ import Container from '../layer/Container'
 import IconText from '../layer/IconText'
 import { MdOutlineLocationOn } from 'react-icons/md'
 import { LuClock3 } from 'react-icons/lu'
+import Button from '../layer/Button'
+
 
 const ContactUs = () => {
     return (
@@ -21,6 +23,7 @@ const ContactUs = () => {
                         <div className='col-span-2'>
                             <Input className='max-w-[925px]' className1='h-[236px] ' labeltext='What’s on your mind? ' id='comment' type='text' placeholder='Jot us a note and we’ll get back to you as quickly as possible' />
                         </div>
+                        <Button btntext='Submit' />
                     </div>
                     <div className=''>
                         <div className='bg-bg-secondary pt-7 px-8 pb-[74px]  flex flex-col gap-4'>

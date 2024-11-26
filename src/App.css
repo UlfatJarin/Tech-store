@@ -22,9 +22,6 @@
 .p5{
     @apply font-Poppins font-light text-[18px] text-blackc leading-[130%]
 }
-.h5{
-    @apply font-Poppins text-color-secondary font-bold text-sm
-}
 .title{
     @apply font-Poppins font-semibold text-[22px] text-blackc 
 }
@@ -39,6 +36,12 @@
 }
 .h4{
     @apply font-Poppins font-bold text-lg text-blackc
+}
+.h5{
+    @apply font-Poppins text-color-secondary font-bold text-sm
+}
+.active{
+    @apply font-Poppins text-sm text-color-3rd
 }
 
 
