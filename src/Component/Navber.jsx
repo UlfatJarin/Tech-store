@@ -21,7 +21,7 @@ const Navber = () => {
                 <Li to='/' className='' liitem='Printers & Scanners'/>
                 <Li to='/' className='' liitem='PC Parts'/>
                 <Li to='/about' className='' liitem='All Other Products'/>
-                <Li to='/' className='' liitem='Repairs'/>  
+                <Li to='/checkout' className='' liitem='Repairs'/>  
 
                 <Button to='/login' className='py-2 px-6' btntext='Our Deals'/>              
             </ul>
